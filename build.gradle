@@ -11,11 +11,12 @@ repositories{
     mavenCentral()
     maven { url "https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository" }
     maven{ url 'https://www.jitpack.io' }
+    maven{ url 'https://maven.xpdustry.com/mindustry' }
 }
 
 ext{
     //the build number that this mod is made for
-    mindustryVersion = 'v147'
+    mindustryVersion = 'v153'
     jabelVersion = "93fde537c7"
     isWindows = System.getProperty("os.name").toLowerCase().contains("windows")
     sdkRoot = System.getenv("ANDROID_HOME") ?: System.getenv("ANDROID_SDK_ROOT")

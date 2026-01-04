@@ -13,8 +13,6 @@ import mindustry.world.blocks.production.Drill;
 
 import java.util.InputMismatchException;
 
-import static arc.Core.bundle;
-
 public class BridgeDrill {
     public static void fill(Tile tile, Drill drill, Direction direction) {
         if (drill.size != 2) throw new InputMismatchException("Drill must have a size of 2");
